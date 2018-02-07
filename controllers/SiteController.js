@@ -9,3 +9,5 @@ SiteController.about = function(req,resp){
 SiteController.contact = function(req,resp){
   resp.render('site/contact');
 }
++ module.exports = SiteController 
+
