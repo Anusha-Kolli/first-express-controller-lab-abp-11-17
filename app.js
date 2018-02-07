@@ -4,8 +4,8 @@ var controller = require('./controllers/SiteController.js')
 var app = express()
 
 app.get('/',controller.Index)
-app.get('/',controller.About)
-app.get('/',controller.Contact)
+app.get('/about',controller.About)
+app.get('/contact',controller.Contact)
 
 
 
